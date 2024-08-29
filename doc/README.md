@@ -1,91 +1,60 @@
-Bitcoin Core
-=============
+# **HOdlcoin - Windows Wallet**
+<img src="http://i.imgur.com/P1956So.png" width="500">
 
-Setup
----------------------
-Bitcoin Core is the original Bitcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Bitcoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+## **Mining**
+To start mining using the wallets built-in miner simply follow these steps
+> **Click the "Mining" menu**
 
-To download Bitcoin Core, visit [bitcoincore.org](https://bitcoincore.org/en/download/).
+<img src="http://i.imgur.com/SS7JY6E.png" width="320">
 
-Running
----------------------
-The following are some helpful notes on how to run Bitcoin Core on your native platform.
+> **Select "Solo Mining On"**
 
-### Unix
+Once you have done this in the lower right corner, you will see the <img src="http://i.imgur.com/9KpvXMe.png" width="25"> switch to the Pickaxe <img src="http://i.imgur.com/5pOgxXK.png" width="30">
 
-Unpack the files into a directory and run:
+##### **From this**
+<img src="http://i.imgur.com/EPlUflR.png" width="90">
 
-- `bin/bitcoin-qt` (GUI) or
-- `bin/bitcoind` (headless)
+##### **To this**
+<img src="http://i.imgur.com/NIgOssp.png" width="90">
 
-### Windows
+>***Note** This will use 1GB of Ram and well put your CPU to 100%
 
-Unpack the files into a directory, and then run bitcoin-qt.exe.
+## **Term Deposits** 
 
-### macOS
+To make a Term Deposit simply follow these steps
 
-Drag Bitcoin Core to your applications folder, and then run Bitcoin Core.
+>**Go to the "Deposit" Tab**
 
-### Need Help?
+<img src="http://i.imgur.com/co6GOQQ.png" width="550">
 
-* See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
-for help and more information.
-* Ask for help on [Bitcoin StackExchange](https://bitcoin.stackexchange.com).
-* Ask for help on #bitcoin on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+You must first decide where you want your deposit to go, Send it to someone as a Tip or to Your own address. If your sending it to someone you only need their HOldcoin address, If you want it to go back in to your own wallet you can copy one of your own address from the **Transactions** tab. 
 
-Building
----------------------
-The following are developer notes on how to build Bitcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+>**Paste it in the address box**
 
-- [Dependencies](dependencies.md)
-- [macOS Build Notes](build-osx.md)
-- [Unix Build Notes](build-unix.md)
-- [Windows Build Notes](build-windows-msvc.md)
-- [FreeBSD Build Notes](build-freebsd.md)
-- [OpenBSD Build Notes](build-openbsd.md)
-- [NetBSD Build Notes](build-netbsd.md)
+<img src="http://i.imgur.com/KZAUupd.png" width="350">
 
-Development
----------------------
-The Bitcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+>***Optional Step* - Enter a Label** 
 
-- [Developer Notes](developer-notes.md)
-- [Productivity Notes](productivity.md)
-- [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://doxygen.bitcoincore.org/)
-- [Translation Process](translation_process.md)
-- [Translation Strings Policy](translation_strings_policy.md)
-- [JSON-RPC Interface](JSON-RPC-interface.md)
-- [Unauthenticated REST Interface](REST-interface.md)
-- [BIPS](bips.md)
-- [Dnsseed Policy](dnsseed-policy.md)
-- [Benchmarking](benchmarking.md)
-- [Internal Design Docs](design/)
+Next you will enter the **Amount** you want to earn interest on, also how long you would like to earn interest for.
 
-### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
-* Discuss project-specific development on #bitcoin-core-dev on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin-core-dev).
+ <img src="http://i.imgur.com/PFrvdRJ.png" width="350">
 
-### Miscellaneous
-- [Assets Attribution](assets-attribution.md)
-- [bitcoin.conf Configuration File](bitcoin-conf.md)
-- [CJDNS Support](cjdns.md)
-- [Files](files.md)
-- [Fuzz-testing](fuzzing.md)
-- [I2P Support](i2p.md)
-- [Init Scripts (systemd/upstart/openrc)](init.md)
-- [Managing Wallets](managing-wallets.md)
-- [Multisig Tutorial](multisig-tutorial.md)
-- [Offline Signing Tutorial](offline-signing-tutorial.md)
-- [P2P bad ports definition and list](p2p-bad-ports.md)
-- [PSBT support](psbt.md)
-- [Reduce Memory](reduce-memory.md)
-- [Reduce Traffic](reduce-traffic.md)
-- [Tor Support](tor.md)
-- [Transaction Relay Policy](policy/README.md)
-- [ZMQ](zmq.md)
+>***Note** 1 Block is 154 seconds
 
-License
----------------------
-Distributed under the [MIT software license](/COPYING).
+Next
+>**Click the "HODL" button**
+
+<img src="http://i.imgur.com/tSMl1QZ.png" width="170">
+
+
+You will then get a pop-up box confirming the Terms of your deposit.
+
+<img src="http://i.imgur.com/qKJcPuL.png " width="470">
+
+If all looks right
+>**Click "Yes"** 
+
+
+At this point your new deposit can be tracked from the **Overview** Tab
+
+<img src="http://i.imgur.com/2RgS7t3.png " width="800">
