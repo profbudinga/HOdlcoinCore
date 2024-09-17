@@ -1,6 +1,6 @@
 ### System
 
-**Operation System:** (Windows 10/Ubuntu 16.04 etc)
+**Operation System:** (Windows 11/Ubuntu 17.00 etc)
 **Wallet Version:** (help --> debug/hodlcoind --version)
 **Linux GCC Version:** (none on windows/gcc --version)
 

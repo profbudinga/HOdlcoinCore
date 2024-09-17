@@ -1,8 +1,13 @@
 {
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\vs2022",
+      "out\\build\\vs2022-static"
+    ]
+  },
   "ExpandedNodes": [
-    "",
-    "\\src"
+    ""
   ],
-  "SelectedNode": "\\src\\rpcserver.cpp",
+  "SelectedNode": "\\vcpkg.json",
   "PreviewInSolutionExplorer": false
 }
